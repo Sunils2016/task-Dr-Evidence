@@ -1,0 +1,6 @@
+[entryPoints]
+  [entryPoints.http]
+    address = ":80"
+    [entryPoints.http.auth]
+      [entryPoints.http.auth.basic]
+        users = ["sunil:sunil123"]
